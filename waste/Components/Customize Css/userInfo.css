@@ -1,0 +1,1104 @@
+@media only screen and (max-width: 334px) { 
+
+  .MainCointainer {
+    height: 100vh;
+    width: 100%;
+    background-color: #698474;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profileBox {
+    width: 2.1875rem; /* 35px */
+    height: 2.1875rem; /* 35px */
+    border-radius: 100%;
+    background-color: #DCA47C;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/8847/8847419.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.profileBox1 {
+    width: 6.1875rem; /* 35px */
+    height: 6.1875rem; /* 35px */
+    border-radius: 100%;
+    background-color: #DCA47C;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/8847/8847419.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.Pencilsvg {
+  margin-left: 4.875rem; /* 110px */
+}
+
+.MainCointainer p {
+    padding-top: 1.25rem; /* 20px */
+    color: white;
+}
+
+.MainCointainer h1 {
+    padding-top: 18.75rem; /* 300px */
+    margin-left: 21.875rem; /* 350px */
+    color: white;
+    cursor: default;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: wheat;
+}
+
+/* Push footer to the bottom */
+header, main {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    height: 3.125rem; /* 50px */
+    background-color: #1D0A0A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+}
+
+footer input {
+    border-radius: 2.5rem; /* 40px */
+    border: none;
+    outline: none;
+    padding-left: 0.9375rem; /* 15px */
+    height: 1.875rem; /* 30px */
+    width: 12.375rem; /* 230px */
+}
+
+.header {
+    width: 100%;
+    height: 5rem; /* 80px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.header input {
+    width: 18.75rem; /* 300px */
+    height: 2.5rem; /* 40px */
+    outline: none;
+    border: none;
+    border-radius: 0.625rem; /* 10px */
+    padding-left: 0.9375rem; /* 15px */
+    cursor: default;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+    width: 18.75rem; /* 300px */
+    height: 12.5rem; /* 200px */
+    background-color: black;
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Details {
+    height: 3.125rem; /* 50px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.3125rem; /* 5px */
+}
+
+#name {
+    margin-right: 8.375rem; /* 150px */
+    color: white;
+}
+
+.closePost {
+    color: black;
+    cursor: default;
+    font-weight: bold;
+}
+
+.dots {
+    margin-right: 1.875rem; /* 30px */
+    margin-bottom: 0.9375rem; /* 15px */
+}
+
+#postingArea {
+    width: 17.5rem; /* 280px */
+    height: 6.25rem; /* 100px */
+    margin-left: 0.5rem; /* 8px */
+    outline: none;
+    vertical-align: top;
+    padding-bottom: 4.375rem; /* 70px */
+}
+
+.ImageUps {
+    margin-left: 0.625rem; /* 10px */
+    margin-top: 0.625rem; /* 10px */
+}
+
+.Upload-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.UploadNow {
+    border-radius: 1.25rem; /* 20px */
+    background-color: red;
+    border: none;
+    width: 5rem; /* 80px */
+    color: white;
+    margin-top: 0.625rem; /* 10px */
+    margin-right: 0.625rem; /* 10px */
+}
+
+.UploadNow:hover {
+
+    background-color: blue;
+
+}
+
+.UploadedImage {
+    width: 2.5rem; /* 40px */
+    height: 2.5rem; /* 40px */
+    background-color: black;
+    margin-top: 0.3125rem; /* 5px */
+    margin-right: 6.25rem; /* 100px */
+}
+
+/* Display post area */
+.posts {
+    margin-top: 1.25rem; /* 20px */
+}
+
+.post {
+    padding: 0.15rem; /* 10px */
+    margin-bottom: 0.625rem; /* 10px */
+    border-radius: 0.3125rem; /* 5px */
+    color: white;
+    background-color: black;
+}
+
+.postImage {
+    width: 18.75rem; /* 300px */
+    height: 12.5rem; /* 200px */
+    margin-top: -0.625rem; /* -10px */
+}
+
+.profile-picture {
+    width: 1.875rem; /* 30px */
+    height: 1.875rem; /* 30px */
+    border-radius: 100%;
+}
+
+.post-header {
+    display: flex;
+}
+
+.postname {
+    margin-left: 0.625rem; /* 10px */
+}
+
+.Comment {
+
+    margin-top: 10px;
+
+  }
+
+  .CommentFooter {
+
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    bottom: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: calc(100vh - 50px);
+
+  }
+
+  .CommentType {
+
+    width: 200px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: wheat;
+
+  }
+
+  .CommentMain {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .postedComment {
+
+    padding: 0.625rem; /* 10px */
+    margin-bottom: 0.625rem; /* 10px */
+    border-radius: 0.3125rem; /* 5px */
+    color: white;
+    background-color: black;
+    width: 300px;
+    margin-top: 15px;
+
+    }
+
+    .buttonCom {
+
+        background-color: black;
+        border: none;
+
+    }
+
+    .seeComment {
+
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+        margin-left: 10px;
+
+    }
+
+    .NameSec {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Myname {
+
+        font-size: 10px;
+
+    }
+
+    #Comsec {
+
+        font-size: 13px;
+
+    }   
+
+  .CommentBox {
+
+    width: 90%;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    bottom: 20%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+  }
+
+  .close {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: gray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+  }
+
+  .close p {
+
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 5px;
+
+  } 
+
+  .Icon {
+
+    margin-right: 10px;
+
+  }
+
+} 
+ 
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (min-width: 334px) and (max-width: 399px) {
+
+    .MainCointainer {
+    height: 100vh;
+    width: 100%;
+    background-color: #698474;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profileBox {
+  width: 2.1875rem; /* 35px */
+  height: 2.1875rem; /* 35px */
+  border-radius: 100%;
+  background-color: #DCA47C;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/8847/8847419.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.profileBox1 {
+    width: 6.1875rem; /* 35px */
+    height: 6.1875rem; /* 35px */
+    border-radius: 100%;
+    background-color: #DCA47C;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/8847/8847419.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.Pencilsvg {
+  margin-left: 4.875rem; /* 110px */
+}
+
+.MainCointainer p {
+    padding-top: 1.25rem; /* 20px */
+    color: white;
+}
+
+.MainCointainer h1 {
+    padding-top: 18.75rem; /* 300px */
+    margin-left: 21.875rem; /* 350px */
+    color: white;
+    cursor: default;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: wheat;
+}
+
+/* Push footer to the bottom */
+header, main {
+    flex: 1;
+}
+
+footer {
+
+    width: 100%;
+    height: 3.125rem; /* 50px */
+    background-color: #1D0A0A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+
+}
+
+footer input {
+    border-radius: 2.5rem; /* 40px */
+    border: none;
+    outline: none;
+    padding-left: 0.9375rem; /* 15px */
+    height: 1.875rem; /* 30px */
+    width: 14.375rem; /* 230px */
+}
+
+.header {
+    width: 100%;
+    height: 5rem; /* 80px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.header input {
+    width: 18.75rem; /* 300px */
+    height: 2.5rem; /* 40px */
+    outline: none;
+    border: none;
+    border-radius: 0.625rem; /* 10px */
+    padding-left: 0.9375rem; /* 15px */
+    cursor: default;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+    width:  20.75rem; /* 300px */
+    height: 12.5rem; /* 200px */
+    background-color: black;
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Details {
+    height: 3.125rem; /* 50px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.3125rem; /* 5px */
+}
+
+#name {
+    margin-left: -160px;
+    color: white;
+}
+
+.closePost {
+    color: black;
+    cursor: default;
+    font-weight: bold;
+}
+
+.dots {
+    margin-right: 1.875rem; /* 30px */
+    margin-bottom: 0.9375rem; /* 15px */
+}
+
+#postingArea {
+    width: 19.600rem; /* 280px */
+    height: 6.25rem; /* 100px */
+    margin-left: 0.5rem; /* 8px */
+    outline: none;
+    vertical-align: top;
+    padding-bottom: 4.375rem; /* 70px */
+}
+
+.ImageUps {
+    margin-left: 0.625rem; /* 10px */
+    margin-top: 0.625rem; /* 10px */
+}
+
+.Upload-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.UploadNow {
+    border-radius: 1.25rem; /* 20px */
+    background-color: red;
+    border: none;
+    width: 5rem; /* 80px */
+    color: white;
+    margin-top: 0.625rem; /* 10px */
+    margin-right: 0.625rem; /* 10px */
+}
+
+.UploadNow:hover {
+
+    background-color: blue;
+
+}
+
+.UploadedImage {
+    width: 2.5rem; /* 40px */
+    height: 2.5rem; /* 40px */
+    background-color: black;
+    margin-top: 0.3125rem; /* 5px */
+    margin-right: 6.25rem; /* 100px */
+}
+
+/* Display post area */
+.posts {
+    margin-top: 1.25rem; /* 20px */
+}
+
+.post {
+    padding: 0.625rem; /* 10px */
+    margin-bottom: 0.625rem; /* 10px */
+    border-radius: 0.3125rem; /* 5px */
+    color: white;
+    background-color: black;
+    width: 320px;
+}
+
+.postImage {
+    width: 18.75rem; /* 300px */
+    height: 12.5rem; /* 200px */
+    margin-top: -0.625rem; /* -10px */
+}
+
+.profile-picture {
+    width: 1.875rem; /* 30px */
+    height: 1.875rem; /* 30px */
+    border-radius: 100%;
+}
+
+.post-header {
+    display: flex;
+}
+
+.postname {
+    margin-left: 0.625rem; /* 10px */
+}
+
+.Comment {
+
+    margin-top: 10px;
+
+  }
+
+  .CommentBox {
+
+    width: 90%;
+    height: 70vh;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    bottom: 20%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid black;
+    overflow-y: auto;
+
+  }
+
+  .close {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: gray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+
+  }
+
+  .close p {
+
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 5px;
+
+  } 
+
+  .Icon {
+
+    margin-right: 10px;
+
+  }
+
+  .CommentFooter {
+
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    bottom: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: calc(100vh - 50px);
+
+  }
+
+  .CommentType {
+
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: wheat;
+
+  }
+
+  .CommentMain {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .postedComment {
+
+    padding: 0.625rem; /* 10px */
+    margin-bottom: 0.625rem; /* 10px */
+    border-radius: 0.3125rem; /* 5px */
+    color: white;
+    background-color: black;
+    width: 300px;
+    margin-top: 15px;
+
+    }
+
+    .buttonCom {
+
+        background-color: black;
+        border: none;
+
+    }
+
+    .seeComment {
+
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+        margin-left: 10px;
+
+    }
+
+    .NameSec {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Myname {
+
+        font-size: 10px;
+
+    }
+
+    #Comsec {
+
+        font-size: 13px;
+
+    }
+
+    }
+
+
+
+
+    @media only screen and (min-width: 400px) {
+
+      .MainCointainer {
+      height: 100vh;
+      width: 100%;
+      background-color: #698474;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  .profileBox {
+    width: 2.1875rem; /* 35px */
+    height: 2.1875rem; /* 35px */
+    border-radius: 100%;
+    background-color: #DCA47C;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/8847/8847419.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.profileBox1 {
+    width: 6.1875rem; /* 35px */
+    height: 6.1875rem; /* 35px */
+    border-radius: 100%;
+    background-color: #DCA47C;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/8847/8847419.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.Pencilsvg {
+  margin-left: 4.875rem; /* 110px */
+}
+  
+  .MainCointainer p {
+      padding-top: 1.25rem; /* 20px */
+      color: white;
+  }
+  
+  .MainCointainer h1 {
+      padding-top: 18.75rem; /* 300px */
+      margin-left: 21.875rem; /* 350px */
+      color: white;
+      cursor: default;
+  }
+  
+  body {
+      margin: 0;
+      height: 100%;
+  }
+  
+  .wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: wheat;
+  }
+  
+  /* Push footer to the bottom */
+  header, main {
+      flex: 1;
+  }
+  
+  footer {
+  
+      width: 100%;
+      height: 3.125rem; /* 50px */
+      background-color: #1D0A0A;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: sticky;
+      bottom: 0;
+  
+  }
+  
+  footer input {
+      border-radius: 2.5rem; /* 40px */
+      border: none;
+      outline: none;
+      padding-left: 0.9375rem; /* 15px */
+      height: 1.875rem; /* 30px */
+      width: 14.375rem; /* 230px */
+  }
+  
+  .header {
+      width: 100%;
+      height: 5rem; /* 80px */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+  }
+  
+  .header input {
+      width: 18.75rem; /* 300px */
+      height: 2.5rem; /* 40px */
+      outline: none;
+      border: none;
+      border-radius: 0.625rem; /* 10px */
+      padding-left: 0.9375rem; /* 15px */
+      cursor: default;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .box {
+      width: 22.75rem; /* 300px */
+      height: 12.5rem; /* 200px */
+      background-color: black;
+      margin-top: 10px;
+  }
+  
+  main {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  .Details {
+      height: 3.125rem; /* 50px */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 0.3125rem; /* 5px */
+  }
+  
+  #name {
+      margin-right: 11.505rem; /* 150px */
+      color: white;
+  }
+  
+  .closePost {
+      color: black;
+      cursor: default;
+      font-weight: bold;
+  }
+  
+  .dots {
+      margin-right: 1.875rem; /* 30px */
+      margin-bottom: 0.9375rem; /* 15px */
+  }
+  
+  #postingArea {
+      width: 21.75rem; /* 280px */
+      height: 6.25rem; /* 100px */
+      margin-left: 0.5rem; /* 8px */
+      outline: none;
+      vertical-align: top;
+      padding-bottom: 4.375rem; /* 70px */
+  }
+  
+  .ImageUps {
+      margin-left: 0.625rem; /* 10px */
+      margin-top: 0.625rem; /* 10px */
+  }
+  
+  .Upload-area {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .UploadNow {
+      border-radius: 1.25rem; /* 20px */
+      background-color: red;
+      border: none;
+      width: 5rem; /* 80px */
+      color: white;
+      margin-top: 0.625rem; /* 10px */
+      margin-right: 0.625rem; /* 10px */
+  }
+
+  .UploadNow:hover {
+
+    background-color: blue;
+
+}
+  
+  .UploadedImage {
+      width: 2.5rem; /* 40px */
+      height: 2.5rem; /* 40px */
+      background-color: black;
+      margin-top: 0.3125rem; /* 5px */
+      margin-right: 6.25rem; /* 100px */
+  }
+  
+  /* Display post area */
+  .posts {
+      margin-top: 1.25rem; /* 20px */
+  }
+  
+  .post {
+      padding: 0.625rem; /* 10px */
+      margin-bottom: 0.625rem; /* 10px */
+      border-radius: 0.3125rem; /* 5px */
+      color: white;
+      background-color: black;
+      width: 370px;
+  }
+  
+  .postImage {
+      width: 21.75rem; /* 300px */
+      height: 12.5rem; /* 200px */
+      margin-top: -0.625rem; /* -10px */
+  }
+  
+  .profile-picture {
+      width: 1.875rem; /* 30px */
+      height: 1.875rem; /* 30px */
+      border-radius: 100%;
+  }
+  
+  .post-header {
+      display: flex;
+  }
+  
+  .postname {
+      margin-left: 0.625rem; /* 10px */
+  }
+
+  .Comment {
+
+    margin-top: 10px;
+
+  }
+
+  
+  .CommentBox {
+
+    width: 90%;
+    height: 70vh;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    bottom: 20%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid black;
+    overflow-y: auto;
+
+  }
+
+  .close {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: gray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+
+  }
+
+  .close p {
+
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 5px;
+
+  } 
+
+  .Icon {
+
+    margin-right: 10px;
+
+  }
+
+  .CommentFooter {
+
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    bottom: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: calc(100vh - 50px);
+
+  }
+
+  .CommentType {
+
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: wheat;
+
+  }
+
+  .CommentMain {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .postedComment {
+
+    padding: 0.625rem; /* 10px */
+    margin-bottom: 0.625rem; /* 10px */
+    border-radius: 0.3125rem; /* 5px */
+    color: white;
+    background-color: black;
+    width: 300px;
+    margin-top: 15px;
+
+    }
+
+    .buttonCom {
+
+        background-color: black;
+        border: none;
+
+    }
+
+    .seeComment {
+
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+        margin-left: 10px;
+
+    }
+
+    .NameSec {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Myname {
+
+        font-size: 10px;
+
+    }
+
+    #Comsec {
+
+        font-size: 13px;
+
+    }
+
+  
+  
+      }
+  
+
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+    .Main {
+
+        display: none;
+
+    }
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+    .Main {
+
+        display: none;
+
+    }
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+    .Main {
+
+        display: none;
+
+    }
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+    .Main {
+
+        display: none;
+
+    }
+
+    
+
+ } 

@@ -1,0 +1,329 @@
+@media only screen and (max-width: 334px) {
+
+    .Main {
+        height: 100vh;
+        width: 100%;
+        background-color: #131842;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Greet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin-bottom: 1.875rem; /* 30px */
+    }
+
+    .Greet h4 {
+        font-size: 0.9375rem; /* 15px */
+    }
+
+    #LoginGreet {
+        font-weight: 600;
+    }
+
+    .Box {
+        width: 18rem; /* 320px */
+        height: 31.25rem; /* 500px */
+        background-color: white;
+        border-radius: 1.25rem; /* 20px */
+    }
+
+    .UserDetails {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 1.25rem; /* 20px */
+    }
+
+    #EmailLabel {
+        margin-top: 3.125rem; /* 50px */
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #Email {
+        margin-top: 0.3125rem; /* 5px */
+        width: 15.5rem; /* 280px */
+        outline: none;
+        border-radius: 1.25rem; /* 20px */
+        border: none;
+        background-color: whitesmoke;
+        height: 2.5rem; /* 40px */
+        padding-left: 1.25rem; /* 20px */
+        font-size: 0.75rem; /* 12px */
+    }
+
+    #PasswordLabel {
+        margin-top: 1.25rem; /* 20px */
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #Password {
+        margin-top: 0.3125rem; /* 5px */
+        width: 15.5rem; /* 280px */
+        outline: none;
+        border-radius: 1.25rem; /* 20px */
+        border: none;
+        background-color: whitesmoke;
+        height: 2.5rem; /* 40px */
+        padding-left: 1.25rem; /* 20px */
+        font-size: 0.75rem; /* 12px */
+    }
+
+    .CheckBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem; /* 10px */
+        margin-left: 1.25rem; /* 20px */
+    }
+
+    #Remember {
+        font-size: 0.75rem; /* 12px */
+        margin-top: 0.875rem; /* 14px */
+    }
+
+    .ForgotPassword {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ForgotPass {
+        font-size: 0.75rem; /* 12px */
+        margin-top: 0.9375rem; /* 15px */
+        margin-right: 1.25rem; /* 20px */
+        text-decoration-line: none;
+    }
+
+    .LoginNow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.875rem; /* 30px */
+    }
+
+    #LoginButton {
+        background-color: blue;
+        width: 9.375rem; /* 150px */
+        height: 2.5rem; /* 40px */
+        border-radius: 1.875rem; /* 30px */
+        border: none;
+        font-family: sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+
+    .SocialMedia a {
+        margin-left: 0.9375rem; /* 15px */
+    }
+
+    #or {
+        margin-top: 0.625rem; /* 10px */
+        cursor: default;
+    }
+
+    .Register {
+        margin-top: 1.5625rem; /* 25px */
+    }
+
+    .Register a {
+        text-decoration-line: none;
+    }
+
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 334px) {
+
+    .Main {
+        height: 100vh;
+        width: 100%;
+        background-color: #131842;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Greet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin-bottom: 1.875rem; /* 30px */
+    }
+
+    .Greet h4 {
+        font-size: 0.9375rem; /* 15px */
+    }
+
+    #LoginGreet {
+        font-weight: 600;
+    }
+
+    .Box {
+        width: 20rem; /* 320px */
+        height: 31.25rem; /* 500px */
+        background-color: white;
+        border-radius: 1.25rem; /* 20px */
+    }
+
+    .UserDetails {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 1.25rem; /* 20px */
+    }
+
+    #EmailLabel {
+        margin-top: 3.125rem; /* 50px */
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #Email {
+        margin-top: 0.3125rem; /* 5px */
+        width: 17.5rem; /* 280px */
+        outline: none;
+        border-radius: 1.25rem; /* 20px */
+        border: none;
+        background-color: whitesmoke;
+        height: 2.5rem; /* 40px */
+        padding-left: 1.25rem; /* 20px */
+        font-size: 0.75rem; /* 12px */
+    }
+
+    #PasswordLabel {
+        margin-top: 1.25rem; /* 20px */
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #Password {
+        margin-top: 0.3125rem; /* 5px */
+        width: 17.5rem; /* 280px */
+        outline: none;
+        border-radius: 1.25rem; /* 20px */
+        border: none;
+        background-color: whitesmoke;
+        height: 2.5rem; /* 40px */
+        padding-left: 1.25rem; /* 20px */
+        font-size: 0.75rem; /* 12px */
+    }
+
+    .CheckBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem; /* 10px */
+        margin-left: 1.25rem; /* 20px */
+    }
+
+    #Remember {
+        font-size: 0.75rem; /* 12px */
+        margin-top: 0.875rem; /* 14px */
+    }
+
+    .ForgotPassword {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ForgotPass {
+        font-size: 0.75rem; /* 12px */
+        margin-top: 0.9375rem; /* 15px */
+        margin-right: 1.25rem; /* 20px */
+        text-decoration-line: none;
+    }
+
+    .LoginNow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.875rem; /* 30px */
+    }
+
+    #LoginButton {
+        background-color: blue;
+        width: 9.375rem; /* 150px */
+        height: 2.5rem; /* 40px */
+        border-radius: 1.875rem; /* 30px */
+        border: none;
+        font-family: sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+
+    .SocialMedia a {
+        margin-left: 0.9375rem; /* 15px */
+    }
+
+    #or {
+        margin-top: 0.625rem; /* 10px */
+        cursor: default;
+    }
+
+    .Register {
+        margin-top: 1.5625rem; /* 25px */
+    }
+
+    .Register a {
+        text-decoration-line: none;
+    }
+
+}
+
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+    .Main {
+
+        display: none;
+
+    }
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+    .Main {
+
+        display: none;
+
+    }
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+    .Main {
+
+        display: none;
+
+    }
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+    .Main {
+
+        display: none;
+
+    }
+
+ } 
