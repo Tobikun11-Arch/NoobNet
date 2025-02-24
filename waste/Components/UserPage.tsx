@@ -53,6 +53,7 @@ function UserPage() {
             backgroundPosition: 'center',
           }} 
         >
+
           <div className="Pencilsvg" onClick={() => document.getElementById('Image')?.click()}>
             <IconPencilSquare />
           </div>
