@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# 🚀 NoobNet – A Social Hub for Tech Enthusiasts
+> NoobNet is a lightweight social platform designed for tech learners to share posts, comment, and interact in a developer-friendly community. Built with Vite + React.js, it leverages Firebase for authentication and storage, ensuring a fast and secure experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔗 Live Demo  
+https://fir-67cf0.web.app/
 
-## Available Scripts
+## 📸 Preview  
+![image](https://github.com/user-attachments/assets/0459a09f-ff7f-4c03-b548-f71ade763225)
+![image](https://github.com/user-attachments/assets/2a6d34ca-e04a-4aa9-8a72-2bae92f789f5)
+![image](https://github.com/user-attachments/assets/b8f81454-37c3-4ef0-aaa2-ae3ed45982e0)
+![image](https://github.com/user-attachments/assets/a697598b-d4dd-400d-bc26-20ae78c7eede)
+![image](https://github.com/user-attachments/assets/780eb439-7ea0-4f6e-8d08-f998f34a2f16)
+![image](https://github.com/user-attachments/assets/1f1fe187-9c2e-4b16-af88-0404c74ea9a4)
 
-In the project directory, you can run:
+## 🛠️ Tech Stack  
+- **Frontend:** Vite, React.js
+- **Backend:** Firebase (Auth & Firestore)
+- **Hosting:** Firebase Hosting
 
-### `npm start`
+## ⚡ Features  
+✅ **📱 Mobile-First Design** – Optimized for mobile devices only; works seamlessly on smartphones. <br/> 
+✅ **🔐 User Authentication** – Secure sign-up and login using Firebase Auth <br/> 
+✅ **📝 Post & Comment System** – Users can create posts and interact through comments in real time. <br/> 
+✅ **⚡ Fast & Lightweight** – Built with Vite for a smooth mobile experience. <br/> 
+💡 **Goal**: To provide a simple, mobile-friendly platform where tech enthusiasts can share knowledge, discuss ideas, and connect anytime, anywhere.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📬 **Contact**  
+👤 Joenel Sevellejo  
+📧 Email: [joenelsevellejo831@gmail.com](mailto:joenelsevellejo831@gmail.com)  
+🔗 Portfolio: yourportfolio.com //soon  
+🐙 GitHub: [github.com/Tobikun11-Arch](https://github.com/Tobikun11-Arch)  
